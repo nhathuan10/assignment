@@ -1,5 +1,6 @@
  *{
     font-family: 'Lato', sans-serif;
+    
 }
 
 *,::after,::before{
@@ -194,7 +195,7 @@
 }
 
 #project{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #332c38;
 }
 
@@ -217,53 +218,82 @@
 }
 
 #project > .body{
-    background-color: aqua;
-    height: 50vh;
-    display: flex;
+    
+    /* height: 100vh; */
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap:30px;
+    padding:10px;
+    justify-content: space-evenly;
 }
 
-#project > .body > .left{
-    width: 400px;
-    background-color: brown;
-    height: inherit;
-    border: 1px solid wheat;
+#project > .body > .block{
+    background-color:#ffffff;
+    border-radius: 20px;
+    border:2px solid whitesmoke;
+    
 }
 
-#project > .body > .left > img{
-    width: 100%;   
+
+#project > .body > .block > img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
-#project > .body > .left > .left-body{
-     text-align:center;
-     padding: 30px; 
+#project > .body > .block >.block-top{
+    padding: 40px 20px;
+}
+ 
+#project > .body > .block >.block-top> h2{
+    text-align:center;
+    margin: 20px;
 }
 
-#project > .body > .left > .left-body > h3,p{
-     margin-bottom: 10px;
-}
-
-#project > .body > .left > .left-body > .p2{
-    text-align:left;
-}
-
-#project > .body > .left >.left-bottom{
-    height: 65px;
-    background-color: bisque;
-    display:flex;
-}
-
-#project > .body > .left >.left-bottom >.left-bottom-first{
-    flex:1;
-    background-color: #f64c72;
+#project > .body > .block >.block-top> small{
     display:flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
 }
-#project > .body > .left >.left-bottom >.left-bottom-second{
-    flex:1;
+
+#project > .body > .block >.block-top> p{
+    text-align: left;
+    padding: 0 25px 0 25px;
+}
+
+#project > .body > .block > .block-bottom{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    margin-top:40px;
 }
 
+#project > .body > .block > .block-bottom > .block-bottom-first{
+    flex:1;
+    text-align:center;
+    padding:15px;
+    border-radius:  0 0 0 20px;
+    background-color:#e9dbdb;
+    transition: padding 1s;
+}  
 
+#project > .body > .block > .block-bottom > .block-bottom-first:hover{
+    background-image: linear-gradient(to right,green,yellow);
+    padding:30px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom:0;
+}
+
+#project > .body > .block > .block-bottom > .block-bottom-second{
+    flex:1;
+    text-align:center;
+    padding:15px;
+    border-radius: 0 0 20px 0;
+    background-color:#e9dbdb;
+    transition: padding 1s;
+}
+
+#project > .body > .block > .block-bottom > .block-bottom-second:hover{
+    background-image: linear-gradient(to right,red,pink);
+    padding:30px;
+    border-radius: 20px;
+    color: white;
+}
