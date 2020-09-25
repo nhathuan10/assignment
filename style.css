@@ -403,11 +403,15 @@
 #timeline > .body > .content-2{
     border-left: 3px dashed  yellow;
     border-right:none;
-    border-radius:20px 0 0 20px
+    border-radius:20px 0 0 20px;
+    position: relative;
+    right:10px;
 }
 
 #timeline > .body > .content-3{
     border-radius: 0 20px 20px 0;
+    position: relative;
+    left:10px;
 }
 
 #timeline > .body > .content-6{
@@ -415,6 +419,8 @@
     border-right:none;
     border-bottom: none;
     border-radius: 20px 0 0 0;
+    position: relative;
+    right:10px;
 }
 
 #blog{
