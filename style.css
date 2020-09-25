@@ -223,7 +223,7 @@
     display:grid;
     grid-template-columns: 400px 400px 400px;
     grid-gap:30px;
-    padding:10px;
+    padding:40px;
     justify-content: space-evenly;
 }
 
@@ -238,10 +238,12 @@
 #project > .body > .block > img{
     width: 100%;
     border-radius: 20px 20px 0 0;
+    height: 250px;
 }
 
 #project > .body > .block >.block-top{
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
+    height: 200px;
 }
  
 #project > .body > .block >.block-top> h2{
@@ -252,7 +254,7 @@
 #project > .body > .block >.block-top> small{
     display:flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 #project > .body > .block >.block-top> p{
@@ -296,4 +298,233 @@
     padding:30px;
     border-radius: 20px;
     color: white;
+}
+
+#skill{
+    background-color: #ffffff;
+    height: 65vh;
+    }
+
+#skill > .header{
+    padding:30px;
+    text-align: center;
+}
+
+#skill > .header > h1{
+    font-size: 3rem;
+}
+
+#skill > .header > hr{
+    border: 3px solid #f64c72;
+    width: 40px;
+    margin: auto;
+}
+
+#skill > .body {
+    display:flex;
+    justify-content: center;
+}
+
+#skill > .body >.block {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin:50px;
+}
+
+#skill > .body >.block > .block-top{
+    padding:10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#skill > .body >.block > .block-bottom{
+    display:flex;
+    /* background-color: blanchedalmond; */
+    height: 300px;
+}
+
+#skill > .body >.block > .block-bottom > .block-bottom-child{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#skill > .body >.block > .block-bottom > .block-bottom-child > p > i{
+    font-size: 3rem;
+}
+
+#timeline{
+    background-color: #332c38;
+}
+
+#timeline > .header{
+    color:white;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+#timeline > .header h1{
+    padding: 10px;
+}
+
+#timeline > .header hr{
+    border: 3px solid #f64c72;
+    width: 60px;
+    margin:auto;   
+}
+
+#timeline > .body{
+    padding: 50px;
+    color:white;
+}
+
+#timeline > .body > .content{
+      /* background-color:yellow; */
+      width: 600px;
+      height: 200px;
+      margin: auto;
+      border-right: 3px dashed yellow;
+      border-bottom: 3px dashed yellow;
+      border-radius: 0 0 20px 0;
+      display: flex;
+      align-items: center;
+}
+
+#timeline > .body > .content > .text{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#timeline > .body > .content-2{
+    border-left: 3px dashed  yellow;
+    border-right:none;
+    border-radius:20px 0 0 20px
+}
+
+#timeline > .body > .content-3{
+    border-radius: 0 20px 20px 0;
+}
+
+#timeline > .body > .content-6{
+    border-left:3px dashed yellow;
+    border-right:none;
+    border-bottom: none;
+    border-radius: 20px 0 0 0;
+}
+
+#blog{
+    background-color: #ffffff;
+    /* height: 100vh; */
+}
+
+#blog > .header{
+    padding: 20px;  
+    text-align: center; 
+}
+
+#blog > .header h1{
+    font-size: 3rem;
+}
+
+#blog > .header hr{
+    border: 3px solid #f64c72;
+    width: 40px;
+    margin:auto;
+}
+
+#blog > .body{
+   display:grid;
+   grid-template-columns: 300px 300px 300px;
+   justify-content: space-evenly;
+   grid-gap: 40px;
+   padding: 40px
+}
+
+#blog > .body a{
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    border: 4px solid black;
+    border-radius: 15px;
+    /* height: 600px; */
+ }
+ 
+#blog > .body > a > .block > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+ }
+
+ #blog > .body > a > .block > .block-top  {
+    height: 250px;
+    padding: 20px;
+}
+ 
+ #blog > .body > a > .block > .block-top > .btn{
+    background-color: #92d4e4;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom:10px;
+}
+
+#blog > .body > a > .block > .block-top >h3  {
+    margin-top:10px;
+    margin-bottom:10px;   
+} 
+
+#blog > .body > a > .block > .block-bottom{
+    display:flex;
+    height: 75px;
+    padding:10px;
+}   
+
+#blog > .body > a > .block > .block-bottom > .block-bottom-left{
+    flex:1;
+}   
+
+#blog > .body > a > .block > .block-bottom > .block-bottom-left > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#blog > .body > a > .block > .block-bottom > .block-bottom-right{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}   
+
+#footer{
+    background-color: #332c38;
+    color: white;
+    padding: 30px;
+}
+
+#footer > .icon{
+    text-align: center;
+}
+
+#footer > .icon > a{
+    color: #ffffff;
+    margin-right:50px;
+    font-size: 1.5rem;
+    transition: color 1s;
+}
+
+#footer > p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#footer > .icon > a:hover{
+    color:#f64c72;
 }
