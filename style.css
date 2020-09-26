@@ -278,7 +278,7 @@
 
 #project > .body > .block > .block-bottom > .block-bottom-first:hover{
     background-image: linear-gradient(to right,green,yellow);
-    padding:30px;
+    padding:20px;
     border-radius: 20px;
     color: white;
     margin-bottom:0;
@@ -295,7 +295,7 @@
 
 #project > .body > .block > .block-bottom > .block-bottom-second:hover{
     background-image: linear-gradient(to right,red,pink);
-    padding:30px;
+    padding:20px;
     border-radius: 20px;
     color: white;
 }
