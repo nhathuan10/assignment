@@ -397,7 +397,7 @@
 
 #timeline > .body > .content > .text{
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right:45px;
 }
 
 #timeline > .body > .content-2{
@@ -408,10 +408,18 @@
     right:10px;
 }
 
+#timeline > .body > .content-2 >.text{
+    margin-left: 45px;
+}
+
 #timeline > .body > .content-3{
     border-radius: 0 20px 20px 0;
     position: relative;
     left:10px;
+}
+
+#timeline > .body > .content-3 >.text{
+    margin-left: 35px;
 }
 
 #timeline > .body > .content-6{
@@ -421,6 +429,10 @@
     border-radius: 20px 0 0 0;
     position: relative;
     right:10px;
+}
+
+#timeline > .body > .content-6 >.text{
+    margin-left: 45px;
 }
 
 #blog{
